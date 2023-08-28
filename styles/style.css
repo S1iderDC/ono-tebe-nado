@@ -1,1 +1,138 @@
 /* место для вашего кода */
+.header {
+    background-color: #fff;
+    padding: 92px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    
+    
+    
+    
+}
+
+.header__menu {
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+    
+
+}
+
+.header__logo {
+    display: block;
+    width: 148px;
+    height: 105px;
+    justify-content: center;
+}
+
+.header__links-list {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    list-style: none;
+    
+}
+
+
+.header__logo-image {
+    width: 100%;
+}
+
+.header__link {
+    text-decoration: none;
+    
+}
+
+.header__links-list-item_no-bullit {
+
+}
+
+.header__links-list-item  {
+    list-style: circle;
+}
+
+.address {
+    font-style: normal;
+}
+
+
+.header__address {
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.35; 
+    width: 240px;
+    
+    
+    
+}
+
+.address a {
+    width: 240px;
+    height: 24px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.35; /* 135% */
+}
+
+/*
+.overlay {
+    opacity: 0.6;
+    background-color: #000;
+    position: absolute;
+    display: flex;
+    justify-content: ;
+    height: 757px;
+
+    
+    
+}
+*/
+
+.cover {
+    background-image: url(/images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 757px;
+        
+}
+
+.cover__title {
+    width: 100%;
+    color: #fff;
+    font-family: 'Raleway', serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 1;
+    line-height: 1.15; /* 115px */
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 165px 50px;
+    
+    
+}
+
+.aligned-text {
+    display: block;
+}
+
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_right {
+    text-align: right;
+}
