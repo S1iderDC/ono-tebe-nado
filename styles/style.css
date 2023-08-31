@@ -104,7 +104,7 @@ button {
     background-image: url(/images/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: cover;
     height: 757px;
     position: relative;
    
@@ -401,4 +401,3 @@ button {
     display: block;
     height: 48px;
 }
-
