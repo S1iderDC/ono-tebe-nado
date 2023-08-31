@@ -66,7 +66,7 @@ button {
     list-style: none;
 }
 
-.header__links-list-item  {
+.header__links-list-item {
     list-style: circle;
     border-bottom: solid 1px black;
 }
@@ -74,11 +74,6 @@ button {
 .address {
     padding-top: 5px;
     justify-self: right;
-}
-
-.address a {
-    text-decoration: none;
-    border-bottom: solid 1px black;
 }
 
 .header__address {
@@ -101,6 +96,8 @@ button {
     font-weight: 400;
     line-height: 135%; /* 135% */
     position: relative;
+    text-decoration: none;
+    border-bottom: solid 1px black;
 }
 
 .cover {
@@ -119,14 +116,12 @@ button {
     color: #fff;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 100px;
-    line-height: 100%;
+    font-size: 100px;    
     line-height: 1.15; /* 115px */
     text-transform: uppercase;
     display: block;
     padding: 165px 50px 130px 50px;
     z-index: 2;
-    
 }
 
 .letter-spacing-extended {
@@ -352,7 +347,7 @@ button {
     line-height: normal;
     text-transform: uppercase;
     margin-top: 100px;
-    margin-left: 25px;    
+    margin-left: 25px;
 }
 
 .footer {
@@ -360,7 +355,7 @@ button {
     height: 97px;
     margin: 180px 50px 90px 50px;
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
 }
 
 .footer .address {
