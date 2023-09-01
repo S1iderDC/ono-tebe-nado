@@ -11,14 +11,12 @@ button {
     background: none;
     border: none;
     padding: 0;
-    
 }
 
 .header {
     background-color: #fff;
-    margin: 92px 50px 92px 50px;
-    width: 1340px;
-    height: 109px;
+    margin: 92px 50px;
+    min-width: 1340px;
     display: grid;
     grid-template-columns: 1fr 0.1fr 1fr;
 }    
@@ -56,27 +54,24 @@ button {
 
 .header__link {
     text-decoration: none;
+    border-bottom: solid 1px black;
 }
 
 .header__link_active {
-    text-decoration: none;
+    border: none;
 }
 
-.header__links-list-item_no-bullit {
+.header__links-list .header__links-list-item_no-bullit {
     list-style: none;
 }
 
 .header__links-list-item {
     list-style: circle;
-    border-bottom: solid 1px black;
 }
 
 .address {
     padding-top: 5px;
     justify-self: right;
-}
-
-.header__address {
     color: #000;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -88,7 +83,6 @@ button {
 
 .address a {
     width: 240px;
-    height: 24px;
     color: #000;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -101,14 +95,8 @@ button {
 }
 
 .cover {
-    background-image: url(../images/cover.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 757px;
+    background: no-repeat center / cover url(../images/cover.jpg);
     position: relative;
-   
-    
 }
 
 .cover__title {
@@ -120,15 +108,15 @@ button {
     line-height: 1.15; /* 115px */
     text-transform: uppercase;
     display: block;
-    padding: 165px 50px 130px 50px;
+    padding: 165px 50px 130px;
     z-index: 2;
 }
 
-.letter-spacing-extended {
-    letter-spacing: 60px;
+.no-letter-spacing {
+    letter-spacing: 0;
 }
 
-.no-letter-spacing {
+.letter-spacing-extended {
     letter-spacing: 60px;
 }
 
@@ -146,15 +134,15 @@ button {
 .aligned-text_right {
     display: block;
     text-align: right;
-    margin-right: -30px;
     margin-top: 5px;
 }
 
 .cover__description {
     display: flex;
-    justify-content:right;
+    justify-content: right;
     position: relative;
     z-index: 2;
+    padding-bottom: 50px;    
 }
 
 .cover__description-text {
@@ -169,13 +157,13 @@ button {
     margin-right: 81px;
     display: block;
     align-self: center;
-    word-spacing: 1.5ex
+    word-spacing: 1.5ex;
 }
 
 .bet-button {
     border: 1px solid #FFF;
-    width: 257px;
-    height: 52px;
+    width: auto;
+    height: auto;
     background-color: transparent;
     padding:  12px 32px;
     color: #FFF;
@@ -187,11 +175,11 @@ button {
     line-height: normal;
     text-transform: uppercase;
     margin-right: 50px;
+    cursor: pointer;
 }
 
 .lots {
     width: 1340px;
-    height: 579px;
     margin: 180px 50px 181px 50px;
 }
 
@@ -214,11 +202,9 @@ button {
     list-style: none;
     flex-grow: 1;
     margin-bottom: 30px;
-    height: 450px;
 }
 
 .lots__card-list-item {
-    
     width: 430px;
     min-height: 450px;
     position: relative;
@@ -243,11 +229,12 @@ button {
 }
 
 .card {
-    height: 450px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 50px 40px;
+    background: no-repeat center / cover;
 }
 
 .card__text {
@@ -263,23 +250,14 @@ button {
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 
@@ -297,7 +275,7 @@ button {
 
 .about {
     width: 1340px;
-    margin: 181px 50px  50px;
+    margin: 181px 50px 50px;
 }
 
 .about__column {
@@ -326,16 +304,16 @@ button {
 }
 
 .about__text-paragraph {
-    margin-bottom: 25px;
-}
-
-.about__text p {
     color: #000;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.about__text-paragraph:first-child {
+    margin-bottom: 25px;
 }
 
 .about__title {
@@ -352,8 +330,7 @@ button {
 
 .footer {
     width: 1340px;
-    height: 97px;
-    margin: 180px 50px 90px 50px;
+    margin: 179px 50px 90px;
     display: flex;
     justify-content: space-between;
 }
@@ -375,8 +352,9 @@ button {
     list-style: none;
 }
 
-.footer__menu-link_active {
+.footer__menu-list-item .footer__menu-link_active {
     text-decoration: none;
+    border:none;
 }
 
 .footer__menu-list-item {
@@ -390,11 +368,11 @@ button {
 }
 
 .footer__social-list {
-    width: 240px;
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 48px;
 }
 
 .footer__social-icon {
