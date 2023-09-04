@@ -19,15 +19,15 @@ button {
     min-width: 1340px;
     display: grid;
     grid-template-columns: 1fr 0.1fr 1fr;
-}    
-  
+}
+
 .header__menu {
     color: #000;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;   
+    line-height: normal;
     align-self: center;
     justify-self: left;
 }
@@ -82,7 +82,7 @@ button {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 135%; 
+    line-height: 135%;
     width: 240px;
     text-decoration: none;
     border-bottom: solid 1px black;
@@ -99,7 +99,7 @@ p.address {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 135%; 
+    line-height: 135%;
     width: 240px;
     text-decoration: none;
     border-bottom: solid 1px black;
@@ -120,8 +120,8 @@ p.address {
     color: #fff;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 100px;    
-    line-height: 1.15; /* 115px */
+    font-size: 100px;
+    line-height: 1.15;
     text-transform: uppercase;
     display: block;
     padding: 165px 50px 130px;
@@ -168,7 +168,7 @@ p.address {
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
-    line-height: 127.273%; /* 127.273% */
+    line-height: 127.273%;
     text-transform: uppercase;
     margin-right: 78px;
     display: block;
@@ -181,7 +181,7 @@ p.address {
     width: auto;
     height: auto;
     background-color: transparent;
-    padding:  12px 32px;
+    padding: 12px 32px;
     color: #FFF;
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -232,9 +232,9 @@ p.address {
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%; /* 26.4px */
+    line-height: 120%;
     text-decoration-line: underline;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     position: relative;
     z-index: 2;
 }
@@ -259,7 +259,7 @@ p.address {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%; /* 24px */  
+    line-height: 120%;
     position: relative;
     z-index: 2;
 }
@@ -361,7 +361,7 @@ p.address {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 135%; 
+    line-height: 135%;
     width: 240px;
     text-decoration: none;
     border-bottom: solid 1px black;
@@ -382,7 +382,7 @@ p.address {
 
 .footer__menu-list-item .footer__menu-link_active {
     text-decoration: none;
-    border:none;
+    border: none;
 }
 
 .footer__menu-list-item {
