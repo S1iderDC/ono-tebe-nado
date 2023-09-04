@@ -61,16 +61,21 @@ button {
     border: none;
 }
 
-.header__links-list .header__links-list-item_no-bullit {
-    list-style: none;
-}
-
 .header__links-list-item {
     list-style: circle;
 }
 
-.address {
+.header__links-list-item_no-bullit  {
+    list-style: none;
+}
+
+.header__address {
     padding-top: 5px;
+    justify-self: right;
+    width: 240px;
+}
+
+.header__address a {
     justify-self: right;
     color: #000;
     font-family: 'Raleway', sans-serif;
@@ -79,17 +84,28 @@ button {
     font-weight: 400;
     line-height: 135%; 
     width: 240px;
+    text-decoration: none;
+    border-bottom: solid 1px black;
 }
 
-.address a {
-    width: 240px;
+p.address {
+    border: none;
+}
+
+.address {
+    justify-self: right;
     color: #000;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 135%; /* 135% */
-    position: relative;
+    line-height: 135%; 
+    width: 240px;
+    text-decoration: none;
+    border-bottom: solid 1px black;
+}
+
+.address a {
     text-decoration: none;
     border-bottom: solid 1px black;
 }
@@ -154,10 +170,10 @@ button {
     font-weight: 400;
     line-height: 127.273%; /* 127.273% */
     text-transform: uppercase;
-    margin-right: 81px;
+    margin-right: 78px;
     display: block;
     align-self: center;
-    word-spacing: 1.5ex;
+    word-spacing: 18px;
 }
 
 .bet-button {
@@ -299,6 +315,9 @@ button {
 }
 
 .about__text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
     padding-top: 100px;
     margin-left: 25px;
 }
@@ -310,10 +329,6 @@ button {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-
-.about__text-paragraph:first-child {
-    margin-bottom: 25px;
 }
 
 .about__title {
@@ -335,8 +350,21 @@ button {
     justify-content: space-between;
 }
 
-.footer .address {
-    margin-top: -5px;
+.footer__address {
+    align-items: center;
+}
+
+.footer__address a {
+    justify-self: right;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; 
+    width: 240px;
+    text-decoration: none;
+    border-bottom: solid 1px black;
 }
 
 .footer__menu {
