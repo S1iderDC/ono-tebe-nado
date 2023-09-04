@@ -65,7 +65,7 @@ button {
     list-style: circle;
 }
 
-.header__links-list-item_no-bullit  {
+.header__links-list-item_no-bullit {
     list-style: none;
 }
 
@@ -158,7 +158,7 @@ p.address {
     justify-content: right;
     position: relative;
     z-index: 2;
-    padding-bottom: 50px;    
+    padding-bottom: 50px;
 }
 
 .cover__description-text {
